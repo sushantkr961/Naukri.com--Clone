@@ -1,0 +1,225 @@
+#navbar {
+    width: 80%;
+    /* border: 2px solid ; */
+    margin: auto;
+    display: flex;
+  
+}
+
+.pages {
+    display: flex;
+    /* border: 2px solid red; */
+    /* justify-content: space-between; */
+    margin-left: 20px;
+    width: 500px;
+
+}
+
+#logo {
+    /* border: 2px solid; */
+    margin: auto;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#buttons {
+    /* border: 2px solid red; */
+    display: flex;
+    margin-left: 70px;
+    width: 200px;
+    color: white;
+    margin: auto;
+}
+
+.login {
+    border: 2px solid skyblue;
+    border-radius: 40px;
+    width: 80px;
+    height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(19, 188, 255);
+    background-color: white;
+    font-size: 17px;
+}
+
+
+.regis {
+    border: 2px solid;
+    border-radius: 40px;
+    width: 100px;
+    color: white;
+    margin-left: 20px;
+    background-color: rgb(252, 71, 5);
+    height: 40px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.dropbtn {
+    /* background-color: #04AA6D; */
+    color: rgb(167, 141, 141);
+        padding: 16px;
+    font-size: 20px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: auto;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 0;
+}
+.dropdown-content h2{
+    font-size: 15px;
+    width: 180px;
+}
+.dropdown-content a {
+    color: rgb(0, 0, 0);
+   padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+.dropdown:hover .dropbtn {
+  color: #000000;
+  cursor: pointer;
+}
+.hr{
+    border: 1px solid rgb(108, 98, 98);
+}
+.foremp>h2{
+    color: black;
+}
+.foremp .dropdown-content{
+    min-width: 100px;
+}
+.hr+div{
+    margin-left: 20px;
+}
+
+#header{
+    
+    border: 2px solid;
+    text-align: center;
+    margin-top: 80px;
+    justify-content: center;
+}
+#header>h1{
+      font-size: 35px;
+}
+
+#header>h1+h2{
+    font-size: 20px;
+    color: grey;
+}
+.searchbar{
+    /* border: 2px solid; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+    width: 65%;
+    margin: auto;
+    border-radius: 20px;
+    
+    
+}
+#search{
+    border: 2px solid ;
+    height: 70px;
+  /* margin-left: -300px; */
+  width: 300px;
+  border: none;
+  font-size: 17px;
+}
+#exper{
+    height: 50px;
+    margin-left: 20px;
+    border: none;
+    
+    font-size: 17px;
+    color: grey;
+    margin-left: 40px;
+}
+#exper>option{
+   font-size: 10px;
+   border: none;
+}
+#location{
+    border: 2px solid;
+        height: 50px;
+        /* margin-left: 300px; */
+        width: 250px;
+        border: none;
+        font-size: 17px;
+        margin-left: 40px;
+}
+.btn{
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    border:rgb(5, 84, 212) ;
+    background-color:rgb(5, 84, 212);
+}
+span{
+    margin-left: 20px;
+    height: 30px;
+}
+#box{
+    border: 1px solid;
+    height: 70px;
+    margin: auto;
+    margin-top: 40px;
+    width: 50%;
+    display: flex;
+  margin-top: 60px;
+  margin-bottom: 50px;
+    
+}
+#box>img{
+    /* border: 2px solid ; */
+    border-radius: 100%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin-top: 10px;
+width: 40px;
+height: 40px;
+}
+#box>h2{
+    margin-top: 15px;
+    margin-left:30px ;
+}
+#res{
+    margin-left: 20px;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+background-color: rgb(252, 71, 5);
+color: white;
+}
