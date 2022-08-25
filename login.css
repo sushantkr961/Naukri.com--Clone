@@ -1,0 +1,52 @@
+#kcbody{
+    height: 670px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#kcnewdiv{
+    height: 450px;
+    width: 30%;
+    border: 1px solid red;
+    /* margin: auto; */
+}
+#kclogindiv{
+    height: 500px;
+    width: 30%;
+    border: 1px solid red;
+    /* margin: auto; */
+}
+/* =============================================================== */
+#main{
+    height: 500px;
+    width: 350px;
+    margin: auto;
+    padding: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    margin-top: 2%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 2%;
+}
+#for>div{
+    margin-top: 8%;
+}
+h2{
+    text-align: center;
+}
+.input>input{
+  height: 40px;
+  width: 90%;
+  border-radius: 6%;
+  border: 1px solid gainsboro;
+}
+.tex{
+   text-align: center;
+}
+#subm{
+    background-color: rgb(51, 51, 255);
+    color: white;
+    font-size: 18px;
+}

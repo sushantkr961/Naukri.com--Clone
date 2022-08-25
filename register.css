@@ -1,0 +1,216 @@
+/* NAVBAR */
+#kcnavbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    background-color: #ffffff;
+}
+#kcnavbarchild1{
+    margin-left: 3%;
+}
+#kcnavbarchild2{
+    font-size: 17px;
+    margin-right: 3%;
+    color: #445578;
+}
+/* Navbar End */
+/* ===================================================== */
+/* Body Start */
+#kcbody{
+    height: 650px;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 1%;
+    display: flex;
+    /* overflow: scroll; */
+    background-color: #f5f6f8;
+}
+#kcbody1{
+    height: 100%;
+    width: 27%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+#kcbuild{
+    height: 42%;
+    width: 75%;
+    margin: auto;
+    /* display: flex; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border:1px solid #d8e1f7;
+    background-color: white;
+    padding: 1%;
+    border: 5%;
+}
+#kcbody2{
+    height: 100%;
+    width: 70%;
+    /* border: 1px solid red; */
+    margin-left: 3%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#kcfind{
+    height: 100%;
+    width: 94%;
+    /* border: 1px solid rgb(8, 8, 8); */
+    display: flex;
+    overflow-y: scroll;
+
+}
+#kcfind1{
+    height: 100%;
+    width: 75%;
+    /* border: 1px solid rgb(8, 8, 8); */
+    
+    margin-left: 5%;
+   
+}
+#kcfind1>h1{
+    margin-top: 6%;
+    font: 34px Robota Slab;
+    font-weight: bolder;
+}
+#kcbuild>.kcon{
+     margin-left: 4%;
+     color: #445578;
+}
+#kchi{
+    margin-top: -22%;
+}
+.kcon{
+    font-size: 14px;
+}
+.kcon>img{
+    width: 6%;
+    margin-right: 2%;
+}
+#kcbuild>center>h2{
+    margin-top: -1%;
+    font-size: 21px;
+}
+#kcfind2{
+    height: 20%;
+    width: 25%;
+    border: 0px;
+    border-left: 1px solid red;
+    margin-top: 15%;
+    color: #445578;
+    font-size: 14px;
+    /* background-color: white; */
+}
+#kcfind2>p{
+    margin-left: 5%;
+    margin-top: 15%;
+}
+#kcfind2>img{
+    width: 50%;
+    margin-left: 2%;
+    margin-top: -4%;
+}
+/* Form Start */
+/* #kcform>input{
+    height: 40px;
+    width: 90%;
+    font-size: 18px;
+    margin-top: -6%;
+    border:1px solid #d8e1f7;
+    border-radius: 2%;
+} */
+#kcname,#kcemail,#kcpassword,#kcmobile{
+    height: 40px;
+    width: 90%;
+    font-size: 18px;
+    margin-top: -6%;
+    border:1px solid #d8e1f7;
+    border-radius: 2%;
+}
+#kcform>p{
+    margin-top: 1%;  
+    color: #445578;
+}
+#kcform>h4{
+    margin-top: 5%;
+    color: #445578;
+}
+#kcwork{
+    height: 14%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#kcexperi{
+    height: 100%;
+    width: 48%;
+    border:1px solid #8dadf8;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    font-size: 19px;
+    color: #457EFF;
+}
+#kcexperi>img{
+    width: 15%  
+}
+#kcexperi>p{
+    font-size: 15px;
+    margin-left: 17%;
+    color: #445578;
+    margin-top: 1%;
+}
+#kcfresher{
+    height: 100%;
+    width: 48%;   
+    border:1px solid #8dadf8;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    font-size: 19px;
+    color: #457EFF;
+}
+#kcfresher>img{
+    width: 15%
+}
+#kcfresher>img{
+    width: 15%  
+}
+#kcfresher>p{
+    font-size: 15px;
+    margin-left: 17%;
+    color: #445578;
+    margin-top: 1%;
+}
+#kcresume{
+    height: 40px;
+    width: 25%;
+    font-size: 14px;
+    border: 0px;
+    border-radius: 25%;
+    background-color: #ff7555;
+    color: white;
+    padding: 2%;
+    margin-top: -2%;
+}
+#kcwhatsapp{
+    width: 4%;
+}
+#kcconditions{
+    font-size: 12px;
+    margin-top: 10%;
+    padding: 2%;
+    color: #445578;
+}
+#kcregisterbtn{
+    width: 25%;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    border: 0px;
+    border-radius: 25%;
+    background-color: #457EFF;
+    margin-top: -2%;
+}
