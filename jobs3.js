@@ -9,6 +9,10 @@ function showJobData (details) {
     post.textContent = details.title;
 
     let company = document.createElement("p")
+    // let logo = document.createElement("i");
+    // logo.setAttribute("class","fa-solid fa-building")
+    // company.setAttribute("class","fa-solid fa-building")
+    // company.append(logo)
     company.textContent = details.company_name
 
     let locate = document.createElement("p");
@@ -21,7 +25,7 @@ function showJobData (details) {
     btn2.textContent = "LOGIN TO APPLY";
 
     let h3 = document.createElement("h3");
-    h3.textContent = "Job description";
+    h3.textContent = "Job description:";
 
     let desc = document.createElement("p");
     var regex = /(<([^>]+)>)/ig;
@@ -30,10 +34,10 @@ function showJobData (details) {
 
 
     let edu = document.createElement("h4");
-    edu.textContent = "Education";
+    edu.textContent = "Education:";
 
     let roleh = document.createElement("h4");
-    roleh.textContent = "Role";
+    roleh.textContent = "Role:";
 
     let rolet = document.createElement("p");
     rolet.textContent = details.job_types;
@@ -42,15 +46,15 @@ function showJobData (details) {
     role.textContent = details.tags;
 
     let rolecat = document.createElement("h4");
-    rolecat.textContent = "Role Catogries";
+    rolecat.textContent = "Role Catogries:";
 
     let rolec = document.createElement("p");
     rolec.textContent = details.slug;
 
     let wev = document.createElement("h4");
-    wev.textContent = "Click below for All details";
+    wev.textContent = "Click below for All details:";
 
-    let wevl = document.createElement("p");
+    let wevl = document.createElement("a");
     wevl.textContent = details.url;
 
 
@@ -59,9 +63,11 @@ function showJobData (details) {
 
 
     let div = document.createElement("div");
+    div.setAttribute("class","sk_top")
     div.append(post,  company, locate, btn1, btn2)
 
     let div2 = document.createElement("div");
+    div2.setAttribute("class","sk_middle")
     div2.append(h3, desc, edu, role, rolec, roleh, rolet,rolecat, rolec, wev, wevl)
 
     container.append(div, div2)
