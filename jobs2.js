@@ -21,42 +21,65 @@ let jobdata = async () => {
   try {
     const url = "https://arbeitnow.com/api/job-board-api";
     let response = await fetch(url);
-    let data = await response.json();
+    let result = await response.json();
     mode = "no-cors";
-    console.log(data.data);
-    appendData(data.data);
+    let original = result.data;
+    console.log(original);
+    appendData(original);
   } catch (error) {
     console.log("error:", error);
   }
 };
 jobdata();
 
-const container = document.getElementById("sk_alljobs");
-function appendData(data) {
+let container = document.getElementById("sk_alljobs");
+
+// function appendData(result){
+//   let { title, company_name, tags, location, job_types } = result;
+
+//   container.innerHTML =
+//     `<h2>${ title }</h2>
+//     <p><i class="fa-solid fa-location-dot"></i> ${ location }</p>
+//     <p><i class="fa-solid fa-building"></i> ${ company_name }</p>
+//     <p><i class="fa-solid fa-file-lines"></i> ${ job_types }</p>
+//     <p><i class="fa-solid fa-handshake"></i> ${ tags }</p>`;
+// }
+
+
+function appendData(result) {
   container.innerHTML = null;
 
-  data.forEach((el) => {
+  // result.forEach(({ title, company_name, tags, location, job_types }) => {
+
+  result.forEach((el) => {
+
     let post = document.createElement("h2");
+    // post.textContent = title;
     post.textContent = el.title;
 
-    let logo1 = document.createElement("i");
-    logo1.setAttribute("class","fa-solid fa-building");
-
     let company = document.createElement("p");
-    company.appendChild(logo1);
-    company.textContent = el.company_name;
-
+    // company.textContent = company_name;
+    company.innerHTML = el.company_name;
+    
     let role = document.createElement("p");
-    role.textContent = el.tags
-
-    let location = document.createElement("p");
-    location.textContent = el.location;
-
+    // role.textContent = tags;
+    role.textContent = el.tags;
+    
+    let locate = document.createElement("p");
+    // locate.textContent = location;
+    locate.innerText = el.location;
+    
     let types = document.createElement("p");
+    // types.textContent = job_types;
     types.textContent = el.job_types;
+    
 
     let div = document.createElement("div");
-    div.append(post, company, role, location, types);
+    div.append(post, company, role, locate, types);
+    div.addEventListener("click",() => {
+      localStorage.setItem("jobs",JSON.stringify(el))
+    });
     container.append(div);
+
   });
 }
