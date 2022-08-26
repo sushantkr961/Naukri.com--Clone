@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+<!--Navbar Start  -->
+    <div id="kcnavbar">
+        <dv id="kcnavbarchild1"><img src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png"></dv>
+        <div id="kcnavbarchild2">Already Registered? <a href="login.html">Login</a> here</div>
+    </div>
+<!--Navbar End --> 
+ <!--===========================================================================================================  -->
+<!--Body -->
+
+    <div id="kcbody">
+        <div id="kcbody1">
+            <div id="kcbuild">
+                <center><img id="kchi" src="https://static.naukimg.com/s/7/104/assets/images/green-boy.c8b59289.svg"></center>
+                <center><h2>On registering, you can</h2></center>
+                <p class="kcon"><img src="https://www.clker.com/cliparts/D/1/e/4/N/X/ok-button-hi.png">Build your profile and let recruiters find you</p>
+                <p class="kcon"><img src="https://www.clker.com/cliparts/D/1/e/4/N/X/ok-button-hi.png">Get job postings delivered right to your email</p>
+                <p class="kcon"><img src="https://www.clker.com/cliparts/D/1/e/4/N/X/ok-button-hi.png">Find a job and grow your career</p>
+            </div>
+        </div>
+        <div id="kcbody2">
+            <div id="kcfind">
+                <div id="kcfind1">
+                    <h1>Find a job & grow your career</h1>
+                    <form id="kcform">
+                        <h4>Full Name</h4>
+                        <input type="text" id="kcname" placeholder="What is your name">
+                        
+                        <h4>Email ID</h4>
+                        <input type="text" id="kcemail" placeholder="Tell us your Email ID">
+                        <p>We'll send you relevant jobs in your mail</p>
+
+                        <h4>Password</h4>
+                        <input type="password" id="kcpassword" placeholder="Create a password for your account">
+                        <p>Minimum 6 characters & 1 special character required</p>
+
+                        <h4>Mobile Number</h4>
+                        <input type="text" id="kcmobile" placeholder="+91 Mobile Number">
+                        <p>Recruiters will call you on this number</p>
+
+                        <h4>Work Status</h4>
+                        <div id="kcwork">
+                            <div id="kcexperi" onclick="hideCity()">
+                                <img src="https://th.bing.com/th/id/R.0c47517830bda4d6d4e2fc567fa3d320?rik=SqSlxAJ7PDfYvg&riu=http%3a%2f%2fclipart-library.com%2fdata_images%2f387496.png&ehk=2asY8W9aHotQcYNFlFuerog4wmJ0%2bMMTIwNgqJNuC68%3d&risl=&pid=ImgRaw&r=0">
+                                I'm Experienced
+                                <p>I have work experience (excluding internships)</p>
+                            </div>
+                            <div id="kcfresher" onclick="showCity()">
+                                <img src="https://th.bing.com/th/id/R.63992ac596c08dde92d7130b9ae02785?rik=Qd1v%2fl2iVGmFmQ&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-killspencer-special-ops-backpack-1bagbackpackskillspencerspecial-opsbackpack1-14215262742975kfuv.png&ehk=79sLmbL%2bUpjUjzMOE%2brZ%2bzSpIpmwZ2CZoGdIa%2fiqhSg%3d&risl=&pid=ImgRaw&r=0">
+                                I'm a Fresher
+                                <p>I am a student/ Haven't worked after graduation</p>
+                            </div>
+                        </div>
+
+                        <div id="kccity"></div>
+
+                        <h4>Resume</h4>
+                        <button id="kcresume">Upload Resume</button>
+                        <p>Recruiters give first preference to candidates who have a resume</p>
+
+                        <input type="checkbox" id="kccheckbox"> <label>Send me important updates on <img id="kcwhatsapp" src="https://mccolchon.com/wp-content/uploads/2018/07/logo-whatsapp.png">Whatsapp</label>
+
+                        <p id="kcconditions">By clicking Register, you agree to the <a href="#"> Terms and Conditions </a>&<a href="#"> Privacy Policy </a>of Naukri.com</p>
+
+                        <input type="submit" id="kcregisterbtn" placeholder="Register Now">
+
+                    </form>
+                    
+                </div>
+                <div id="kcfind2">
+                    <p>Continue With</p>
+                    <img src="https://i.stack.imgur.com/4LSMF.png">
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="register.js"></script>
