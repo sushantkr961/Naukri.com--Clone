@@ -126,9 +126,9 @@ body{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
-#sk_link{
-    /* border: 1px solid; */
-}
+/* #sk_link{
+    border: 1px solid;
+} */
 #sk_link img{
     /* border: 1px solid; */
     width: 150px;

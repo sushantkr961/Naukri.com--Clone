@@ -1,0 +1,136 @@
+
+/* body{
+    position: relative;
+    color:white;
+    background-color: #2E3339;
+} */
+
+a{
+    text-decoration: none;
+    color: #b6b8ba;
+    cursor: pointer;
+}
+
+a:hover{
+    color:white;
+}
+
+#sk_link img{
+    width: 9em;
+    cursor: pointer;
+}
+
+#sk_follow img{
+    width: 26px;
+    cursor: pointer;
+}
+
+#sk_info{
+    font-size: 12px;
+    font-family: Roboto,sans-serif;
+    width: 15%;
+    position: absolute;
+    left: 266px;
+    top: 0px;
+}
+
+#sk_info p:nth-child(1){
+    font-size: 16px;
+}
+
+#sk_link{
+    font-size: 12px;
+    font-family: Roboto,sans-serif;
+    position: absolute;
+    left: 266px;
+    top: 346px;
+}
+
+#sk_link p:nth-child(1){
+    font-size: 16px;
+}
+
+#sk_jobseekers{
+    position: absolute;
+    left: 498px;
+    bottom: 1600px;
+    top: 0px;
+    font-size: 12px;
+    font-family: Roboto,sans-serif;
+}
+
+#sk_jobseekers p:nth-child(1){
+    font-size: 16px;
+}
+
+#sk_brjob{
+    position: absolute;
+    left: 498px;
+    top: 239px;
+    font-size: 12px;
+    font-family: Roboto,sans-serif;
+}
+
+#sk_brjob p:nth-child(1){
+    font-size: 16px;
+}
+
+#sk_services{
+    position: absolute;
+    top: 0px;
+    right: 628px;
+    font-size: 12px;
+    font-family: Roboto,sans-serif;
+}
+
+#sk_services p:nth-child(1){
+    font-size: 16px;
+}
+
+#sk_learn{
+    position: absolute;
+    top: 205px;
+    right: 602px;
+    font-size: 12px;
+    font-family: Roboto,sans-serif;
+    width: 166px;
+}
+
+#sk_learn p:nth-child(1){
+    font-size: 16px;
+}
+
+#sk_emp{
+    position: absolute;
+    top: 0px;
+    right: 307px;
+    font-size: 12px;
+    font-family: Roboto,sans-serif;
+}
+
+#sk_emp p:nth-child(1){
+    font-size: 16px;
+}
+
+#sk_box{
+    position: absolute;
+right: 344px;
+top: 272px;
+font-size: 12px;
+font-family: Roboto,sans-serif;
+}
+
+#sk_box p:nth-child(1){
+    font-size: 16px;
+}
+
+#sk_follow{
+    position: absolute;
+    right: 381px;
+    top: 475px;
+    font-size: 12px;
+    font-family: Roboto,sans-serif;
+    color:#B6B8BA;
+}
+
+
