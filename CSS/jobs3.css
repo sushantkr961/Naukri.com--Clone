@@ -1,0 +1,15 @@
+.sk_top, .sk_middle {
+    /* border: 1px solid; */
+    width: 40%;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#sk_btn1{
+    padding: 10px 15px;
+}
+#sk_btn2{
+    padding: 10px 15px;
+}
