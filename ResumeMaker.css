@@ -1,13 +1,15 @@
 * {
     margin: 0px;
     padding: 0px;
-    /* box-sizing: border-box; */
+
     font-family: Roboto, sans-serif;
   }
   
   body {
     margin: 0px;
+    background-color: #FFFFFF;
   }
+
   
 
 #navbar {
@@ -17,6 +19,7 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 20px;
+    background-color: #FFFFFF;
 }
 
 #navbar a,h3{
@@ -94,12 +97,11 @@ span {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background: white;
     display: none;
-
     position: absolute;
     text-align: left;
-    width: 40%;
-
-    padding: 20px;
+    width: auto;
+    margin-top: 40px;
+    padding: 10px;
 }
 
 .menu ul {
@@ -348,6 +350,7 @@ margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     text-align: justify;
+    justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -355,7 +358,7 @@ margin-top: 20px;
     font-size: 14px; 
     color:#000000DE;
     text-align: center;
-    margin-bottom: 15x;
+    margin-bottom: 15px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -365,4 +368,83 @@ margin-top: 20px;
     font-weight: bold;
     padding: 0px;
     margin: 0px;
+}
+
+.landing_page_three{
+    background-image: url(https://static.naukimg.com/s/8/801/i/ic-bannerimg_new.0390bb8e.png);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: inherit;
+    background-size: cover;
+    overflow: hidden;
+    justify-content: center;
+    text-align: start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+#page_three_div1{
+    width: 85%;
+}
+
+#page_three_div1>h3{
+    font-size: 48px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+
+#page_three_div2{
+    transform: translateZ(0);
+    margin-top: 10px;
+}
+
+#page_three_div1 button{
+    background-color: #0088ff;
+    padding: 8px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    font-weight: bold;
+}
+
+
+.page3-div1{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+#view_para{
+    font-size: 12px;
+}
+.page3_details{
+    width: 500px;
+    height: auto;
+    line-height: 0.5cm;
+    padding: 20px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.last_page_h1{
+    font-size: 16px;
+    color: #0088ff;
+    font-weight: bold;
+}
+
+.last_link_div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+#last_link{
+    font-size: 16px;
+    font-weight: bold;
+    color: #0088ff;
 }
