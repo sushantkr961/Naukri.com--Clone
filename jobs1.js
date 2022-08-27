@@ -29,8 +29,13 @@
 
 // // Complex jobs query
 
-// const url6 = `http://api.adzuna.com:80/v1/api/jobs/gb/search/1?app_id=${APP_ID}&app_key=${APP_KEY}&results_per_page=20&what=javascript%20developer&what_exclude=java&where=london&sort_by=salary&salary_min=30000&full_time=1&permanent=1&content-type=application/json`;
+// const url6 = `http://api.adzuna.com:80/v1/api/jobs/gb/search/1?app_id=${API_ID}&app_key=${API_KEY}&results_per_page=20&what=javascript%20developer&what_exclude=java&where=london&sort_by=salary&salary_min=30000&full_time=1&permanent=1&content-type=application/json`;
 
 // // Free Job Board API
 
 // const url7 = `https://arbeitnow.com/api/job-board-api`;
+
+
+
+
+// api = "36b4a1c2cc67b0be1de5d6e1336198462f8c9aeaa0c6b827bfd1f22faf24ac54"

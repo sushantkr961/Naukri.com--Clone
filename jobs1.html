@@ -12,27 +12,10 @@
     <link rel="stylesheet" href="./CSS/jobs1.css" />
     <link rel="stylesheet" href="./CSS/all.css" />
     <link rel="stylesheet" href="./CSS/footer1.css" />
+    <!-- <link rel="stylesheet" href="./Components/navbar.css"> -->
   </head>
   <body>
-    <!-- <div id="sk_nav">
-      <figure>
-        <img
-          src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png"
-          alt="logo"
-        />
-      </figure>
-      <ul>
-        <li>JOBS</li>
-        <li>RECRUITERS</li>
-        <li>COMPANIES</li>
-        <li>TOOLS</li>
-        <li>SERVICES</li>
-        <li>MORE</li>
-        <li>LOGIN</li>
-        <li><i class="fa-regular fa-bell"></i></li>
-        <li>FOR EMPLOYERS</li>
-      </ul>
-    </div> -->
+    <div id="sk_navbar"></div>
 
     <div id="sk_nav0">
       <div id="sk_nav1">
@@ -285,6 +268,9 @@
   import footer1 from "./footer1.js";
   document.getElementById("sk_deta").innerHTML = footer1();
 
+  // import navbar from "./Components/navbar.js"
+  // document.getElementById("sk_navbar").innerHTML = navbar();
+
 let photos = [
   "./images/photo1.jpg",
   "./images/photo2.jpg",
@@ -302,5 +288,5 @@ function slide() {
     i=0;
   }
 }
-setInterval(slide,2000)
+setInterval(slide,3000)
 </script>

@@ -1,6 +1,24 @@
-.sk_top, .sk_middle {
+#sk_bl {
     /* border: 1px solid; */
-    width: 40%;
+    height: 100px;
+    margin-bottom: -50px;
+    background-color: #D4E5FF;
+}
+
+.sk_top  {
+    /* border: 1px solid; */
+    /* width: 70%; */
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    /* padding-bottom: 10px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sk_middle {
+    /* border: 1px solid; */
+    /* width: 70%; */
     margin: auto;
     margin-bottom: 25px;
     padding: 15px 30px;
@@ -34,13 +52,78 @@
     column-gap: 20px;
 }
 
+
+
 #sks_body {
-    border: 1px solid red;
-    width: 70%;
+    /* border: 1px solid red; */
+    width: 65%;
     margin: auto;
     display: flex;
+    border-radius: 5px;
+    /* background-color: #fff; */
 }
 
 #sk_interest {
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    width: 25%;
+    height: 400px;
+    padding: 10px 20px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#sk_interest::-webkit-scrollbar {
+    width: 0px;
+}
+#sk_jobdetails{
+    /* border: 1px solid; */
+    width: 70%;
+    margin-right: 30px;
+}
+#sk_h4 {
+    /* border: 1px solid; */
+    width: 65%;
+    margin: auto;
+}
+#sk_pa{
+    /* border: 1px solid; */
+    width: 65%;
+    margin: auto;
+    padding: 10px;
+    font-size: 12px;
+}
+#sk_ie {
+    /* border: 1px solid; */
+    width: 65%;
+    margin: auto;
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 25px;
+}
+#sk_rights {
+    background-color: #e2e2e2;
+    font-size: 12px;
+    color: #666666;
+    /* border: 1px solid; */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#sk_s {
+    /* border: 1px solid red; */
+    background-color: #2E3339;
+}
+
+#sk_slideshow {
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sk_slideshow p {
+    margin-right: 10px;
+    font-size: 13px;
 }

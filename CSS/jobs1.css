@@ -124,6 +124,7 @@ body{
     width: 20%;
 }
 #sk_00 {
+    /* border: 1px solid; */
     display: flex;
     padding: 5px;
 }
@@ -151,6 +152,10 @@ body{
     /* border: 1px solid ; */
     margin: 5px;
 }
+#sk_loc p{
+    font-size: 16px;
+    font-weight: 400;
+}
 #sk_loc a, #sk_comp a {
     /* border: 1px solid; */
     color: blue;
@@ -173,11 +178,8 @@ body{
 }
 figcaption{
     cursor: pointer;
-}
-
-#sk_comp{
-    /* border: 1px solid blueviolet; */
-    margin: 5px;
+    font-size: 14px;
+    font-weight: 400;
 }
 #sk_icon {
     /* border: 1px solid rebeccapurple; */
@@ -227,6 +229,8 @@ figcaption{
   }
   .sk_mjobs4 p{
     /* border: 1px solid blue; */
+    font-size: 14px;
+    font-weight: 400;
     margin-bottom: 5px;
     cursor: pointer;
   }
@@ -249,11 +253,20 @@ hr{
     font-size: 13px;
 }
 #sk_rights {
-    text-align: center;
     background-color: #e2e2e2;
     font-size: 12px;
     color: #666666;
-}
+    /* border: 1px solid; */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+#sk_photu{
+    /* border: 1px solid; */
+    height: 70px;
+    width: 700px;
+}
 
 
