@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: scroll ;
+}
+
+
+#sk_nav0 {
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-bottom: 15px;
+    background-image: url("https://th.bing.com/th/id/OIP.graAEQcksdf779mZ9UTriQHaCz?w=338&h=132&c=7&r=0&o=5&dpr=1.06&pid=1.7");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sk_loc0, #sk_comp0 {
+    /* border: 1px solid black; */
+    width: 59%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+#sk_nav1 {
+    /* border: 1px solid blue; */
+    margin: 5px;
+    width: 60%;
+    margin: auto;
+}
+#sk_nav2{
+    /* border: 1px solid green; */
+    display: flex;
+}
+#sk_nav2 ul {
+    /* border: 1px solid; */
+    display: inline-flex;
+    list-style: none;
+}
+#sk_nav2 ul li, #sk_brow ul li {
+    /* border: 1px solid; */
+    margin: 10px;
+    margin-right: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+#sk_inp {
+    font-size: 12px;
+    /* border: 1px solid violet; */
+    display: flex;
+    margin: 5px;
+}
+#sks_sea {
+    border: 3px solid gray;
+    border-right: 1px;
+    width: 500px;
+    padding: 10px 15px;
+}
+#sks_sea1 {
+    border: 3px solid gray;
+    padding: 10px 15px;
+}
+#sk_btn button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #0099CC;
+    color: #FFFFFF;
+    border: 1px solid #0099CC;
+}
+#sk_cap0 {
+    display: flex;
+    justify-content: space-between;
+}
+#sk_cap, #sk_cap1 {
+    /* border: 1px solid; */
+    font-size: 13px;
+    font-weight: 600;
+    color: #c9c6c6;
+}
+
+#sk_nav3 {
+    /* border: 1px solid green; */
+    display: flex;
+    margin: 5px;
+}
+
+#sk_nav4 {
+    /* border: 1px solid red; */
+    margin: 5px;
+    width: 70%;
+}
+
+#sk_brow {
+    /* border: 1px solid violet; */
+    /* margin: 5px; */
+    color: #FFFFFF;
+}
+#sk_brow ul {
+    /* border: 1px solid; */
+    display: inline-flex;
+    list-style: none;
+    margin-top: -150px;
+    width: 100%;
+}
+#sk_brow ul li {
+    /* border: 1px solid; */
+    margin: 10px;
+    cursor: pointer;
+}
+#sk_brow ul li:hover, #sk_nav2 ul li:hover {
+    color: black;
+}
+#sk_register {
+    /* border: 1px solid red; */
+    margin-left: 20px;
+    padding: 5px;
+    width: 20%;
+}
+#sk_00 {
+    display: flex;
+    padding: 5px;
+}
+#sk_00 img {
+    width: 70px;
+}
+#sk_register button {
+    width: 70%;
+    margin-left: 30px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #ff8703;
+    color: #FFFFFF;
+    border: 1px solid #ff8703;
+    cursor: pointer;
+    font-weight: 500;
+}
+#sk_register button:hover {
+    background-color: #ce6a00;
+    border: 1px solid #ce6a00;
+    color: #FFFFFF;
+}
+
+#sk_loc{
+    /* border: 1px solid ; */
+    margin: 5px;
+}
+#sk_loc a, #sk_comp a {
+    /* border: 1px solid; */
+    color: blue;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+}
+#sk_image{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#sk_loc img{
+    /* border: 1px solid skyblue; */
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    cursor: pointer;
+}
+figcaption{
+    cursor: pointer;
+}
+
+#sk_comp{
+    /* border: 1px solid blueviolet; */
+    margin: 5px;
+}
+#sk_icon {
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-align: center;
+}
+
+#sk_s {
+    /* border: 1px solid red; */
+    background-color: #2E3339;
+}
+
+
+
+#sk_mjobs0 {
+    /* border: 1px solid black; */
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  .sk_mjobs1 {
+    /* border: 1px solid red; */
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 51%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .sk_mjobs2 {
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 51%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .sk_mjobs3{
+    /* border: 1px solid green; */
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sk_mjobs4 p{
+    /* border: 1px solid blue; */
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  #sk_mjobs0 a {
+    text-decoration: none;
+    color: blue;
+  }
+hr{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+
