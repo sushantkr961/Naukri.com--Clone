@@ -269,10 +269,12 @@
       <footer id="sk_deta"></footer>
     </div>
 
-    <footer id="slideshow">
+    <div id="sk_slideshow">
       <p>Partner Sites</p>
-      <img src="" alt="Companies" />
-    </footer>
+      <!-- <div id="sk_slide"> -->
+        <img src="./images/photo1.jpg" alt="Companies" id="sk_photu"/>
+      <!-- </div> -->
+    </div>
 
     <footer id="sk_rights">
       <p>All rights reserved @ 2022 Info Edge (India) Ltd.</p>
@@ -282,4 +284,23 @@
 <script type="module">
   import footer1 from "./footer1.js";
   document.getElementById("sk_deta").innerHTML = footer1();
+
+let photos = [
+  "./images/photo1.jpg",
+  "./images/photo2.jpg",
+  "./images/photo3.jpg",
+  "./images/photo4.jpg",
+  "./images/photo5.jpg",
+];
+
+let i = 0;
+function slide() {
+  document.querySelector("#sk_photu").src = photos[i];
+  if(i<photos.length-1){
+    i++;
+  }else{
+    i=0;
+  }
+}
+setInterval(slide,2000)
 </script>

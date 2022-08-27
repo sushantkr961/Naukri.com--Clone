@@ -238,7 +238,22 @@ hr{
     margin-top: 5px;
     margin-bottom: 10px;
 }
-
+#sk_slideshow {
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sk_slideshow p {
+    margin-right: 10px;
+    font-size: 13px;
+}
+#sk_rights {
+    text-align: center;
+    background-color: #e2e2e2;
+    font-size: 12px;
+    color: #666666;
+}
 
 
 
