@@ -46,7 +46,7 @@ let Navbar = () => {
       </div>
       <!-- login -->
       <div id="nav_div3"></div>
-      <a href="">LOGIN</a>
+      <a href="login.html">LOGIN</a>
     </div>`
 }
 

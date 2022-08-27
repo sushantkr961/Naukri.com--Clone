@@ -278,11 +278,11 @@ let FOOTER = () => {
                                 <a target="">Campus</a>
                             </li>
                             <li>
-                                <a target="" href="https://www.firstnaukri.com/campus/registration"
+                                <a target="" href="register.html"
                                     title="Campus Register">Register</a>
                             </li>
                             <li>
-                                <a target="" href="https://www.firstnaukri.com/campus/login"
+                                <a target="" href="login.html"
                                     title="Campus Login">Login</a>
                             </li>
                         </ul>
