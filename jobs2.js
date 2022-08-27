@@ -1,3 +1,6 @@
+const API_ID = "15093f72";
+const API_KEY = "846bdebb67eca7508d6807f04da28a3b";
+
 //  <-------- .then & .catch ----------->
 
 // <----------- ES6 way ---------->
@@ -19,13 +22,13 @@
 
 let jobdata = async () => {
   try {
-    const url = "https://arbeitnow.com/api/job-board-api";
+    const url = `http://api.adzuna.com:80/v1/api/jobs/gb/search/1?app_id=${API_ID}&app_key=${API_KEY}&results_per_page=20&what=javascript%20developer&what_exclude=java&where=london&sort_by=salary&salary_min=30000&full_time=1&permanent=1&content-type=application/json`;
     let response = await fetch(url);
     let result = await response.json();
     mode = "no-cors";
-    let original = result.data;
-    console.log(original);
-    appendData(original);
+    // let original = result.data;
+    console.log(result.results);
+    appendData(result.results);
   } catch (error) {
     console.log("error:", error);
   }
@@ -52,27 +55,23 @@ function appendData(result) {
 
   result.forEach((el) => {
     let post = document.createElement("h2");
-    // post.textContent = title;
-    post.textContent = el.title;
+    post.textContent = el.category.label;
 
     let company = document.createElement("p");
-    // company.textContent = company_name;
-    company.innerHTML = el.company_name;
+    company.innerHTML = el.company.display_name;
 
-    let role = document.createElement("p");
-    // role.textContent = tags;
-    role.textContent = el.tags;
-
+    let s = document.createElement("p");
+    s.textContent = "₹" + el.salary_min + " - " + "₹" + el.salary_max + " P.A";
     let locate = document.createElement("p");
     // locate.textContent = location;
-    locate.innerText = el.location;
+    locate.innerText = el.location.area;
 
     let types = document.createElement("p");
     // types.textContent = job_types;
-    types.textContent = el.job_types;
+    types.textContent = el.contract_time;
 
     let div = document.createElement("div");
-    div.append(post, company, role, locate, types);
+    div.append(post, company, s, locate, types);
     div.addEventListener("click", () => {
       localStorage.setItem("jobs", JSON.stringify(el));
     });
@@ -83,7 +82,7 @@ function appendData(result) {
 // <----------- Pagination ----------->
 
 const pagin = (results, per_page) => {
-  // 20 result per page
+  // 10 result per page
 
   let buttons_div = document.getElementById("sk_page");
 
@@ -100,4 +99,4 @@ const pagin = (results, per_page) => {
   }
 };
 
-pagin(100, 10);
+pagin(5, 2);

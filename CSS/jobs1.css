@@ -23,6 +23,24 @@ body{
     margin: 10px;
 }
 
+#sk_nav0 {
+    border: 1px solid black;
+    width: 68%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#sk_loc0, #sk_mjobs0, #sk_comp0,#sk_mjobs1 {
+    /* border: 1px solid black; */
+    width: 67%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
 #sk_nav1 {
     border: 1px solid blue;
     margin: 5px;
@@ -46,14 +64,11 @@ body{
 #sk_nav3 {
     border: 1px solid green;
     display: flex;
-    /* justify-content: space-evenly; */
     margin: 5px;
 }
 
 #sk_nav4 {
     border: 1px solid red;
-    /* display: flex; */
-    /* justify-content: space-evenly; */
     margin: 5px;
     width: 70%;
 }
@@ -64,7 +79,6 @@ body{
 }
 #sk_brow {
     border: 1px solid violet;
-    /* display: flex; */
     margin: 5px;
 }
 #sk_brow ul {
@@ -78,15 +92,13 @@ body{
 }
 #sk_register {
     border: 1px solid red;
-    /* display: flex; */
-    /* justify-content: space-evenly; */
     margin: 5px;
     width: 20%;
 }
 
 
 #sk_loc{
-    border: 1px solid;
+    border: 1px solid ;
     margin: 5px;
 }
 #sk_image{
@@ -109,7 +121,6 @@ body{
     margin: 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(5, 1fr); */
 }
 
 #sk_comp{
@@ -120,24 +131,17 @@ body{
     display: flex;
 }
 
-#sk_deta{
-    border: 1px solid;
-    margin: 5px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+#sk_s {
+    /* border: 1px solid red; */
+    background-color: #2E3339;
 }
-/* #sk_link{
-    border: 1px solid;
-} */
-#sk_link img{
-    /* border: 1px solid; */
-    width: 150px;
-}
-#sk_follow div{
-    /* border: 1px solid; */
-    display: flex;
-}
-#sk_follow div img{
-    width: 30px;
-    height: 30px;
-}
+
+
+
+
+
+
+
+
+
+

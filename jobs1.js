@@ -4,6 +4,7 @@
 // // api for job
 
 // const url1 = `https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=${API_ID}&app_key=${API_KEY}`;
+// ----------->  10 results
 
 // // fetch('https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=15093f72&app_key=846bdebb67eca7508d6807f04da28a3b')
 // // .then(response => response.json())
@@ -15,7 +16,7 @@
 // const url2 = `http://api.adzuna.com/v1/api/jobs/gb/top_companies?app_id=${API_ID}&app_key=${API_KEY}&what=cook&content-type=application/json`;
 
 // // api for catogries job
-
+//   finance job  30 results
 // const url3 = `http://api.adzuna.com/v1/api/jobs/gb/categories?app_id=${YOUR_API_ID}&app_key=${API_KEY}&&content-type=application/json`;
 
 // // jobs in West Midlands

@@ -5,11 +5,42 @@
     margin-bottom: 25px;
     padding: 15px 30px;
     border-radius: 5px;
+    padding-bottom: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-#sk_btn1{
+#sk_btn1, #sk_btn2{
+    font-family: Roboto,sans-serif;
     padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #4a90e2;
+    color: #4a90e2;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 3px;
 }
-#sk_btn2{
-    padding: 10px 15px;
+#sk_btn1:hover, #sk_btn2:hover{
+    font-family: Roboto,sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    background-color: #4a90e2;
+}
+
+#sks_divbtn{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: right;
+    column-gap: 20px;
+}
+
+#sks_body {
+    border: 1px solid red;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+#sk_interest {
+    border: 1px solid green;
 }

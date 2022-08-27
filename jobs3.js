@@ -6,17 +6,17 @@ function showJobData(details) {
   container.innerHTML = null;
 
   let post = document.createElement("h2");
-  post.textContent = details.title;
+  post.textContent = details.category.label;
 
   let company = document.createElement("p");
-  // let logo = document.createElement("i");
-  // logo.setAttribute("class","fa-solid fa-building")
-  // company.setAttribute("class","fa-solid fa-building")
-  // company.append(logo)
-  company.textContent = details.company_name;
+  company.textContent = details.company.display_name;
+
+  let salary = document.createElement("p");
+  salary.textContent =
+    "₹" + details.salary_min + " - " + "₹" + details.salary_max + " P.A";
 
   let locate = document.createElement("p");
-  locate.textContent = details.location;
+  locate.textContent = details.location.area;
 
   let btn1 = document.createElement("button");
   btn1.setAttribute("id", "sk_btn1");
@@ -30,8 +30,8 @@ function showJobData(details) {
   h3.textContent = "Job description:";
 
   let desc = document.createElement("p");
-  var regex = /(<([^>]+)>)/gi;
-  details.description = details.description.replace(regex, "");
+  // var regex = /(<([^>]+)>)/gi;
+  // details.description = details.description.replace(regex, "");
   desc.textContent = details.description;
 
   let edu = document.createElement("h4");
@@ -41,7 +41,7 @@ function showJobData(details) {
   roleh.textContent = "Role:";
 
   let rolet = document.createElement("p");
-  rolet.textContent = details.job_types;
+  rolet.textContent = details.contract_time;
 
   let role = document.createElement("p");
   role.textContent = details.tags;
@@ -56,11 +56,15 @@ function showJobData(details) {
   wev.textContent = "Click below for All details:";
 
   let wevl = document.createElement("a");
-  wevl.textContent = details.url;
+  wevl.textContent = details.redirect_url;
+
+  let divbtn = document.createElement("div");
+  divbtn.setAttribute("id", "sks_divbtn");
+  divbtn.append(btn1, btn2);
 
   let div = document.createElement("div");
   div.setAttribute("class", "sk_top");
-  div.append(post, company, locate, btn1, btn2);
+  div.append(post, company, salary, locate, divbtn);
 
   let div2 = document.createElement("div");
   div2.setAttribute("class", "sk_middle");
@@ -81,3 +85,27 @@ function showJobData(details) {
   container.append(div, div2);
 }
 showJobData(details);
+
+const API_ID = "15093f72";
+const API_KEY = "846bdebb67eca7508d6807f04da28a3b";
+
+const url1 = `https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=${API_ID}&app_key=${API_KEY}`;
+
+let contaienr2 = document.getElementById("sk_interest");
+
+let getMData = async () => {
+  try {
+    let res = await fetch(url1);
+    let data = await res.json();
+    console.log(data.results);
+  } catch (error) {
+    console.log(error);
+  }
+};
+getMData();
+
+function showMData(data) {
+  contaienr2.innerHTML = null;
+
+  data.forEach((el) => {});
+}
