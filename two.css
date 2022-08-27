@@ -1,0 +1,141 @@
+
+*{
+    font-family: sans-serif;
+}
+body{
+background-color: whitesmoke;
+}
+
+
+.landing_page2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;  
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.page2one{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    width: 70%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.Box{
+    width: auto;
+    height: auto;
+    padding: 60px;
+    box-shadow: 0 12px 24px 0 rgb(13 13 13 / 5%);
+    background-color: white;
+}
+
+.in_box>img{
+    margin-bottom: 10px;
+}
+
+#landing_page3{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.about-service-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: -200px;
+}
+
+.about-service-content{
+width: 70%;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: auto;
+background-color: #fff;
+padding: 61px 66px;
+box-shadow: 0 5px 10px 2px rgb(0 0 0 / 7%);
+}
+
+.leftSection,.rightSection{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.rightSection{
+    border: 1px dashed black;
+}
+
+.service-image{
+    width: 315px;
+    height: 216px;
+}
+
+.uploadSubHeading{
+    margin-bottom: 15px;
+}
+.file-upload-image{
+    width: 79px;
+    height: 73px;
+    /* padding-left: 100px; */
+    margin-bottom: 30px;
+}
+.fileUploadBtn{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 90px;
+    padding-left: 200px;
+}
+
+#page2_landing{
+
+    background-image: url(https://static.naukimg.com/s/8/801/i/ic-bannerimg_new.0390bb8e.png);
+    color: white;
+    height: 350px;
+    width: 100%;
+    text-align: center;
+    background-attachment: fixed;
+}
+#page2_landing>h1{
+    padding-top: 20px;
+    font-weight: 500;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+#page2_landing p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+#landing_page2{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color: #fec923;
+    padding-bottom: 10px;
+}
+
+#landing_page2>h1{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+
+
+
+
+

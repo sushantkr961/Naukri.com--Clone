@@ -1,0 +1,54 @@
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100px * 7));
+    }
+}
+
+#partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#partners p {
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+    position: absolute;
+    left: 270px;
+}
+
+#imageSlider2 {
+    width: 600px;
+    overflow: hidden;
+}
+
+#sliderTrack2 {
+    animation: scroll 15s linear infinite;
+    display: flex;
+    width: calc(100px * 14);
+}
+
+
+#imageSlider2 img {
+    margin: 0px 15px;
+    width: 80px;
+}
+
+#reserve {
+    width: 100%;
+    background-color: lightgray;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#reserve p {
+    font-size: 12px;
+    text-align: center;
+}
