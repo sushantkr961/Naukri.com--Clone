@@ -122,10 +122,11 @@
 #kcname,#kcemail,#kcpassword,#kcmobile{
     height: 40px;
     width: 90%;
-    font-size: 18px;
+    font-size: 14px;
     margin-top: -6%;
     border:1px solid #d8e1f7;
     border-radius: 2%;
+    
 }
 #kcform>p{
     margin-top: 1%;  
@@ -139,11 +140,11 @@
     height: 14%;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 #kcexperi{
     height: 100%;
-    width: 48%;
+    width: 44%;
     border:1px solid #8dadf8;
     border-top-left-radius: 20%;
     border-bottom-right-radius: 20%;
@@ -163,7 +164,7 @@
 }
 #kcfresher{
     height: 100%;
-    width: 48%;   
+    width: 44%;   
     border:1px solid #8dadf8;
     border-top-left-radius: 20%;
     border-bottom-right-radius: 20%;
@@ -171,6 +172,7 @@
     border-top-right-radius: 5%;
     font-size: 19px;
     color: #457EFF;
+    margin-left: 2%;
 }
 #kcfresher>img{
     width: 15%
@@ -213,4 +215,23 @@
     border-radius: 25%;
     background-color: #457EFF;
     margin-top: -2%;
+}
+#kclivecity{
+    height: 40px;
+    width: 90%;
+    font-size: 18px;
+    border:1px solid #d8e1f7;
+    border-radius: 2%;
+    margin-top: -3%;
+}
+#kcsuggdiv>button{
+    height: 35px;
+    /* background-color: #ff7555; */
+    margin-left: 2%;
+    margin-top: -3%;
+    padding: 1%;
+    border-radius: 30%;
+    border: 1px solid gainsboro;
+    color: #445578;
+    background-color: #ffffff;
 }
