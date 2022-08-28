@@ -130,15 +130,13 @@ let getMData = async () => {
   try {
     let response = await fetch(url1);
     let result = await response.json();
-    // mode = "no-cors";
-    // let original = result.data;
     console.log(result.results);
     showMData(result.results);
   } catch (error) {
     console.log("error:", error);
   }
 };
-getMData();
+// getMData();
 
 // function showMData(data) {
 //   contaienr2.innerHTML = null;

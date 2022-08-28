@@ -53,9 +53,7 @@ let jobdata = async () => {
     const url = `https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=${API_ID}&app_key=${API_KEY}`;
     let response = await fetch(url);
     let result = await response.json();
-    // mode = "no-cors";
-    // let original = result.data;
-    console.log(result.results);
+    console.log(result);
     appendData(result.results);
   } catch (error) {
     console.log("error:", error);
