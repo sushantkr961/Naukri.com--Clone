@@ -1,0 +1,117 @@
+#sksAll {
+    /* border: 1px solid; */
+    width: 65%;
+    margin: auto;
+    display: flex;
+    border-radius: 5px;
+}
+#sk_alljobs {
+    /* border: 1px solid red; */
+    width: 70%;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+#sk_lil {
+    /* border: 1px solid; */
+    padding: 10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#sk_register {
+    /* border: 1px solid red; */
+    width: 25%;
+    /* height: 250px; */
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#sk_register button {
+    width: 70%;
+    margin-left: 30px;
+    padding: 10px 15px;
+    /* margin-top: 10px; */
+    background-color: #ff8703;
+    color: #FFFFFF;
+    border: 1px solid #ff8703;
+    cursor: pointer;
+    font-weight: 500;
+}
+#sk_register button:hover {
+    background-color: #ce6a00;
+    border: 1px solid #ce6a00;
+    color: #FFFFFF;
+}
+#sk_00 {
+    /* border: 1px solid; */
+    display: flex;
+    padding: 5px;
+}
+#sk_00 img {
+    width: 100px;
+}
+
+
+#sk_s {
+    /* border: 1px solid red; */
+    background-color: #2E3339;
+}
+
+#sk_slideshow {
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sk_slideshow p {
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+
+#sk_rights {
+    background-color: #e2e2e2;
+    font-size: 12px;
+    color: #666666;
+    /* border: 1px solid; */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#sk_page {
+    /* border: 1px solid; */
+    width: 70%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#sk_page button {
+    border: none;
+    color: #4a90e2;
+    background: transparent;
+    font-size: large;
+    margin-left: 10px;
+}
+#sk_page button:hover {
+    background-color: #4a90e2;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+#sk_01 {
+    /* border: 1px solid; */
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 10px;
+}
+#sk_01 img {
+    /* border: 1px solid; */
+    width: 120px;
+    height: 50px;
+}

@@ -1,26 +1,24 @@
 import footer1 from "./footer1.js";
-  document.getElementById("sk_deta").innerHTML = footer1();
+document.getElementById("sk_deta").innerHTML = footer1();
 
+let photos = [
+  "./images/photo1.jpg",
+  "./images/photo2.jpg",
+  "./images/photo3.jpg",
+  "./images/photo4.jpg",
+  "./images/photo5.jpg",
+];
 
-  let photos = [
-    "./images/photo1.jpg",
-    "./images/photo2.jpg",
-    "./images/photo3.jpg",
-    "./images/photo4.jpg",
-    "./images/photo5.jpg",
-  ];
-  
-  let i = 0;
-  function slide() {
-    document.querySelector("#sk_photu").src = photos[i];
-    if(i<photos.length-1){
-      i++;
-    }else{
-      i=0;
-    }
+let i = 0;
+function slide() {
+  document.querySelector("#sk_photu").src = photos[i];
+  if (i < photos.length - 1) {
+    i++;
+  } else {
+    i = 0;
   }
-  setInterval(slide,3000)
-
+}
+setInterval(slide, 3000);
 
 
 
@@ -108,34 +106,66 @@ showJobData(details);
 // const API_ID = "15093f72";
 // const API_KEY = "846bdebb67eca7508d6807f04da28a3b";
 
-// const url1 = `http://api.adzuna.com/v1/api/jobs/gb/history?app_id=15093f72&app_key=846bdebb67eca7508d6807f04da28a3b&location0=UK&location1=West%20Midlands&content-type=application/json`;
+const API_ID = "3adb517c";
+const API_KEY = "6365ca0a1022166c8c290e296b68b083";
+
+const url1 = `https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=${API_ID}&app_key=${API_KEY}`;
 
 let contaienr2 = document.getElementById("sk_inter");
 
+// let getMData = async () => {
+//   try {
+//     let res = await fetch(`https://arbeitnow.com/api/job-board-api`);
+//     let data = await res.json();
+//     // mode = "no-cors";
+//     console.log(data);
+//     showMData(data.data);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+// getMData();
+
 let getMData = async () => {
   try {
-    let res = await fetch(`https://arbeitnow.com/api/job-board-api`);
-    let data = await res.json();
+    let response = await fetch(url1);
+    let result = await response.json();
     // mode = "no-cors";
-    console.log(data);
-    showMData(data.data);
+    // let original = result.data;
+    console.log(result.results);
+    showMData(result.results);
   } catch (error) {
-    console.log(error);
+    console.log("error:", error);
   }
 };
 getMData();
+
+// function showMData(data) {
+//   contaienr2.innerHTML = null;
+
+//   data.forEach((el) => {
+//     let post = document.createElement("h3");
+//     post.textContent = el.tags;
+//     let company = document.createElement("p");
+//     company.textContent = el.company_name;
+//     let loc = document.createElement("p");
+//     loc.textContent = el.location;
+
+//     let hr = document.createElement("hr");
+//     contaienr2.append(post, company, loc, hr);
+//   });
+// }
 
 function showMData(data) {
   contaienr2.innerHTML = null;
 
   data.forEach((el) => {
-    
     let post = document.createElement("h3");
-    post.textContent = el.tags;
+    post.textContent = el.category.label;
     let company = document.createElement("p");
-    company.textContent = el.company_name;
+    company.textContent = el.company.display_name;
     let loc = document.createElement("p");
-    loc.textContent = el.location;
+    loc.textContent = el.location.area;
 
     let hr = document.createElement("hr");
     contaienr2.append(post, company, loc, hr);

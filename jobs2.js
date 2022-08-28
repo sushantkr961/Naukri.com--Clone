@@ -1,5 +1,31 @@
-const API_ID = "15093f72";
-const API_KEY = "846bdebb67eca7508d6807f04da28a3b";
+import footer1 from "./footer1.js";
+document.getElementById("sk_deta").innerHTML = footer1();
+
+let photos = [
+  "./images/photo1.jpg",
+  "./images/photo2.jpg",
+  "./images/photo3.jpg",
+  "./images/photo4.jpg",
+  "./images/photo5.jpg",
+];
+
+let i = 0;
+function slide() {
+  document.querySelector("#sk_photu").src = photos[i];
+  if (i < photos.length - 1) {
+    i++;
+  } else {
+    i = 0;
+  }
+}
+setInterval(slide, 3000);
+
+
+// const API_ID = "15093f72";
+// const API_KEY = "846bdebb67eca7508d6807f04da28a3b";
+
+const API_ID = "3adb517c";
+const API_KEY = "6365ca0a1022166c8c290e296b68b083";
 
 //  <-------- .then & .catch ----------->
 
@@ -22,10 +48,12 @@ const API_KEY = "846bdebb67eca7508d6807f04da28a3b";
 
 let jobdata = async () => {
   try {
-    const url = `http://api.adzuna.com:80/v1/api/jobs/gb/search/1?app_id=${API_ID}&app_key=${API_KEY}&results_per_page=20&what=javascript%20developer&what_exclude=java&where=london&sort_by=salary&salary_min=30000&full_time=1&permanent=1&content-type=application/json`;
+    // const url = `http://api.adzuna.com:80/v1/api/jobs/gb/search/1?app_id=${API_ID}&app_key=${API_KEY}&results_per_page=20&what=javascript%20developer&what_exclude=java&where=london&sort_by=salary&salary_min=30000&full_time=1&permanent=1&content-type=application/json`;
+
+    const url = `https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=${API_ID}&app_key=${API_KEY}`;
     let response = await fetch(url);
     let result = await response.json();
-    mode = "no-cors";
+    // mode = "no-cors";
     // let original = result.data;
     console.log(result.results);
     appendData(result.results);
@@ -58,22 +86,29 @@ function appendData(result) {
     post.textContent = el.category.label;
 
     let company = document.createElement("p");
-    company.innerHTML = el.company.display_name;
+    company.innerHTML = "Company:- " + el.company.display_name;
 
     let s = document.createElement("p");
-    s.textContent = "₹" + el.salary_min + " - " + "₹" + el.salary_max + " P.A";
+    s.textContent = "Salary:- " +"₹" + el.salary_min + " - " + "₹" + el.salary_max + " P.A";
     let locate = document.createElement("p");
     // locate.textContent = location;
-    locate.innerText = el.location.area;
+    locate.innerText = "Location:- " + el.location.area;
 
     let types = document.createElement("p");
     // types.textContent = job_types;
     types.textContent = el.contract_time;
 
+    let hr = document.createElement("hr");
+
+    let posted = document.createElement("p");
+    posted.textContent = "Posted: " + el.created;
+
     let div = document.createElement("div");
-    div.append(post, company, s, locate, types);
+    div.append(post, company, s, locate, types, hr, posted);
+    div.setAttribute("id","sk_lil")
     div.addEventListener("click", () => {
       localStorage.setItem("jobs", JSON.stringify(el));
+      window.location.href = "jobs3.html"
     });
     container.append(div);
   });
@@ -99,4 +134,4 @@ const pagin = (results, per_page) => {
   }
 };
 
-pagin(5, 2);
+pagin(10, 2);
