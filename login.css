@@ -1,0 +1,139 @@
+#kcbody{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#kcnewdiv{
+    height: 470px;
+    width: 40%;
+    /* border: 1px solid red; */
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    /* margin: auto; */
+}
+#kclogindiv{
+    height: 530px;
+    width: 35%;
+    /* border: 1px solid red; */
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    /* margin: auto; */
+}
+/* ==========================================================New to Naukri Div Start========================================================= */
+#kconeclick{
+    height: 60%;
+    width: 70%;
+    /* border: 1px solid red; */
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#kconeclick>input{
+    margin-top: 5%;
+}
+.checked{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    color: gray;
+}
+.cecked>label{
+    margin-left: 5%;
+    color: #091E42;
+}
+#kcfreebtn{
+    height: 40px;
+    width: 60%;
+    background-color: white;
+    border: 1px solid #4A90E2;
+    color: #4A90E2;
+    font-weight: bold;
+}
+#kcimgdiv{
+    height: 34%;
+    /* width: 70%; */
+    /* border: 1px solid red; */
+    justify-content: end;
+    margin-left: 57%;
+}
+#kcimgdiv>img{
+    height: 100%;
+    /* margin-left: 10%; */
+    /* display: flex;
+    justify-content: end; */
+}
+/* ============================================================LOGIN DIV Start====================================================== */
+/* =============================================================== */
+#main{
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    margin-top: 2%;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    border-radius: 2%;
+}
+#for>div{
+    margin-top: 8%;
+}
+.input>input{
+  height: 40px;
+  width: 100%;
+  border-radius: 6%;
+  border: 1px solid gainsboro;
+}
+.tex{
+   text-align: center;
+}
+#kcsubmit{
+    background-color: #4A90E2;
+    color: white;
+    font-size: 18px;
+}
+.input{
+    margin-top: 4%;
+}
+input{
+    margin-top: 2%;
+}
+#kcforgot{
+    display: flex;
+    justify-content: end;
+    color: #4A90E2;
+}
+#kcotp{
+    margin-top: 5%;
+    color: #4A90E2;
+    /* margin: auto; */
+}
+#kcor{
+    color: #5a5a5a;
+    font-weight: bold;
+}
+#signwith{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    color: #5a5a5a;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    align-items: center;
+    /* border-radius: 30%; */
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+#signwith>img{
+    width: 5%;
+    margin-left: 5%;
+}
+#signwith>h4{
+    margin-left: 15%;
+}

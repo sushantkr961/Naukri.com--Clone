@@ -1,0 +1,370 @@
+#kchead{
+    height: 50px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(https://th.bing.com/th/id/R.a975c67331378bd2d80b09d130956556?rik=Fjyeiy7hKFmbVg&riu=http%3a%2f%2fimages8.alphacoders.com%2f357%2f357188.jpg&ehk=0kIQhojlVwrwqvyAmK6WQjT1QFpc5WdPt3n4MSXVK7o%3d&risl=&pid=ImgRaw&r=0);
+    position: fixed;
+    
+}
+/* NAVBAR START */
+#kchiring-navbar{
+    display: flex;
+    height: 80px;
+}
+/* BODY START */
+#kcContainer{
+    display: flex;
+    height: 640px;
+    /* border: 1px solid black; */
+    background-color: #fcfdfd;
+    justify-content: end;
+}
+#kcContainer>#kcContainer-left{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid rgb(22, 22, 22); */
+}
+#kcContainer>#kcContainer-right{
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid red; */
+}
+#kcbanner-info>p{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.banner-products{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+}
+.banner-heading{
+    color: #2870c1;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: bold;
+    margin: auto;
+
+}
+.banner-products>li{
+    font-size: 18px;
+    color: #8892A3;
+
+}
+.banner-subheading{
+    color: #414B5D;
+    font-size: 28px;
+    font-family: Nunito;
+    font-weight: bold;
+    margin: auto;
+}
+.banner-subheading-word{
+    color: #8892A3;
+    font-size: 22px;
+    font-family: Roboto,Arial;
+    font-weight: bold;
+    margin: auto;
+}
+#toggleRCBLoginForm{
+    height: 96%;
+    width: 70%;
+    border: 1px solid gray; 
+    margin-top: 3%;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#kcformtitle{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    margin-left: 5%;
+}
+#userTypeFeild,#RCBcontactPerson,#RCBphone,#RCBcompany,#RCBdesignation,#RCBemail,#RCBcity{
+    height: 20px;
+    width: 90%;
+    border: 0px;
+    border-bottom:1px solid #2870c1;
+    margin-top: 1%;
+    /* margin-left: 5%; */
+}
+#kcgetbtn{
+   margin-top: 2%;
+   height: 50px;
+    width: 90%;
+    background-color: #2870c1;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    /* margin-left: 5%; */
+}
+.reCAPTCHA{
+    margin-top: 4%;
+    margin-left: 2%;
+}
+#kchr{
+    margin-top: -1%;
+}
+.customRadioLabel{
+    color: #7C8BA2;
+}
+#rcbFormLoginPage{
+    margin-left: 5%;
+}
+.banner-image-container{
+    height: 71%;
+    width: 100%;
+    text-align:center
+}
+
+.banner-image-container>img{
+    /* height: 100%; */
+    width: 70%;
+}
+/* ===============================================END SALES FORM----========================================= */
+
+.kcpro-ser-div{
+    height: 140px;
+    width: 36%;
+    margin: auto;
+    text-align: center;
+    margin-top: 8%;
+}
+.kcpro-ser-div>h4{
+    color: #2870c1;
+}
+.kcpro-ser-div>h1{
+    color: #414b5d;
+    margin-top: -2%;
+}
+/* ========================================================================================================================= */
+/* Product Div Start */
+#kcproductdiv{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+    /* justify-content: space-around; */
+    margin-top: 5%;
+}
+#kcproductdiv-left{
+    width: 30%;
+    height: 100%;
+}
+#kcproductdiv-right{
+    width: 40%;
+    height: 100%;
+}
+#kcproductdiv-right>img{
+    width: 100%;
+    height: 100%;
+}
+/* Product Div End */
+/* ================================================================================================================================ */
+/* Talent Div Start */
+#kctalentdiv{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+    /* justify-content: space-around; */
+    margin-top: 5%;
+}
+#kctalentdiv-left{
+    width: 30%;
+    height: 100%;
+}
+#kctalentdiv-right{
+    width: 40%;
+    height: 100%;
+}
+#kctalentdiv-right>img{
+    width: 100%;
+    height: 100%;
+}
+/* ==================================================================================== */
+
+.solutions-container{
+    height: 250px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.solution-box{
+    height: 100%;
+    width: 32%;
+    border: 1px solid rgb(226, 226, 226);
+}
+.solutions-container>div>.solution-head{
+    font-size: 22px;
+    color: #191b1f;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.solutions-container>div>.solution-description{
+    font-size: 18px;
+    color: #232832;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.solutions-container>div>a{
+    font-size: 16px;
+    color: #2870c1;
+    margin-left: 5%;
+}
+.solutions-container>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* ============================================================================================== */
+/* START PROFILE DIV */
+#mnr-promo-middle-banner{
+    height: 340px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    /* align-items: center; */
+    margin-top: 5%;
+}
+.client-left-content{
+    width: 25%;
+    height: 84%;
+    margin-top: 2%;
+}
+.client-right-content{
+    width: 55%;
+    display: flex;
+    margin-left: 5%;
+    background-color: rgb(235, 252, 247);
+}
+.client-left-content>img{
+    width: 5%;
+}
+.client-left-content>h3{
+    color: #2870c1;
+}
+.client-left-content>h1{
+    color: #414b5d;
+    margin-top: 5%;
+}
+.client-left-content>p{
+    color: #232832;
+    margin-top: 5%;
+}
+.lient-right-content{
+    display: flex;
+}
+.slide{
+    height: 100%;
+    width: 30%;
+    margin-left: 5%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+}
+.slide>img{
+    width: 15%;
+    margin-top: 8%;
+}
+.client-name{
+    color: #191b1f;
+}
+.client-role{
+    color: #7c8ba2;
+    font-size: 12px;
+}
+
+.kcproline{
+    height: 1%;
+    width: 25%;
+    background-color: #2870c1;
+    margin: auto;
+    border-radius: 20%;
+}
+.client-review{
+    margin-top: 5%;
+    color: #232832;
+}
+/* END PROFILE DIV */
+/* ========================================================================================================= */
+/* KCBLOG START */
+#kcblogPost{
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    font-family:Nunito;
+}
+#kcblog-post-container{
+    height: 25%;
+    width: 100%;
+}
+#kcMuiGrid-container{
+    height: 70%;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+#kcppost{
+    color: #2870c1;
+    font-size: 14px;
+    margin-top: 2%;
+    font-weight: bold;
+}
+#kcblog-post-container>h2{
+    color: #414b5d;
+    font-size: 26px;
+    margin-top: -1%;
+}
+.kcMuiGrid-item-2{
+    height: 100%;
+    width: 31%;
+}
+.kczoomimg{
+    height: 50%;
+    width: 100%;
+}
+.kczoomimg>img{
+    height: 98%;
+    width: 98%;
+}
+.kczoomimg>img:hover{
+    height: 100%;
+    width: 100%;
+}
+.MuiCardContent>h2{
+    color: #191b1f;
+    font-size: 20px;
+}
+.MuiCardContent>p{
+    color: #232832;
+    font-size: 16px;
+}
+/* KCBLOG END*/
+/* ================================================================================ */
+#kckota{
+    height: 100px;
+    width: 100%;
+    margin-top: 5%;
+    background-color: rgb(236, 255, 248);
+}
+#kckota-cont{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#kckota-cont>img{
+    width: 8%;
+    height: 40%;
+}
+/* ================================================================================================ */
