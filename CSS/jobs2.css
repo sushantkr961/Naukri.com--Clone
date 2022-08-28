@@ -21,7 +21,7 @@
 #sk_register {
     /* border: 1px solid red; */
     width: 25%;
-    /* height: 250px; */
+    height: 950px;
     border-radius: 5px;
     padding: 20px 30px;
     margin-left: 20px;
@@ -114,4 +114,10 @@
     /* border: 1px solid; */
     width: 120px;
     height: 50px;
+}
+#sk_02 {
+    border: 1px solid #a8a8a8;
+    width: 99%;
+    margin-top: 70px;
+
 }
