@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="hiring.css">
+    <link rel="stylesheet" href="./CSS/footer1.css">
 </head>
 
 <body>
@@ -830,8 +831,15 @@
 </div>
 
 <!-- -------------------------------------------------------------------------------------------------- -->
-<div id="kcfooter"></div>
+<div id="sk_s">
+    <footer id="sk_deta"></footer>
+  </div>
 
 </body>
 
 </html>
+
+<script type="module">
+    import footer1 from "./footer1.js";
+  document.getElementById("sk_deta").innerHTML = footer1();
+</script>

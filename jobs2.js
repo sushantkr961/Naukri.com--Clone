@@ -24,8 +24,11 @@ setInterval(slide, 3000);
 // const API_ID = "15093f72";
 // const API_KEY = "846bdebb67eca7508d6807f04da28a3b";
 
-const API_ID = "3adb517c";
-const API_KEY = "6365ca0a1022166c8c290e296b68b083";
+// const API_ID = "3adb517c";
+// const API_KEY = "6365ca0a1022166c8c290e296b68b083";
+
+const API_ID = "ca102f12";
+const API_KEY = "a0f560183cc8a1d5775ee96906879ffd";
 
 //  <-------- .then & .catch ----------->
 

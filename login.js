@@ -12,7 +12,7 @@ document.querySelector("#kcform");
      arr.map(function(elem){
     if((email==elem.Email) && (password==elem.Password))  
     {
-      //   window.location.href="navbar.html"
+        window.location.href="index.html"
       alert("Welcome to naukri")
     } 
      else if(email!=elem.Email)

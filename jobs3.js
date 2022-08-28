@@ -20,8 +20,6 @@ function slide() {
 }
 setInterval(slide, 3000);
 
-
-
 let details = JSON.parse(localStorage.getItem("jobs"));
 // console.log(details);
 let container = document.getElementById("sk_jobdetails");
@@ -45,10 +43,16 @@ function showJobData(details) {
   let btn1 = document.createElement("button");
   btn1.setAttribute("id", "sk_btn1");
   btn1.textContent = "Register to apply";
+  btn1.addEventListener("click", () => {
+    window.location.href = "register.html";
+  });
 
   let btn2 = document.createElement("button");
   btn2.setAttribute("id", "sk_btn2");
   btn2.textContent = "LOGIN TO APPLY";
+  btn2.addEventListener("click", () => {
+    window.location.href = "login.html";
+  });
 
   let divbtn = document.createElement("div");
   divbtn.setAttribute("id", "sks_divbtn");
@@ -106,8 +110,11 @@ showJobData(details);
 // const API_ID = "15093f72";
 // const API_KEY = "846bdebb67eca7508d6807f04da28a3b";
 
-const API_ID = "3adb517c";
-const API_KEY = "6365ca0a1022166c8c290e296b68b083";
+// const API_ID = "3adb517c";
+// const API_KEY = "6365ca0a1022166c8c290e296b68b083";
+
+const API_ID = "ca102f12";
+const API_KEY = "a0f560183cc8a1d5775ee96906879ffd";
 
 const url1 = `https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=${API_ID}&app_key=${API_KEY}`;
 
@@ -136,7 +143,7 @@ let getMData = async () => {
     console.log("error:", error);
   }
 };
-// getMData();
+getMData();
 
 // function showMData(data) {
 //   contaienr2.innerHTML = null;
