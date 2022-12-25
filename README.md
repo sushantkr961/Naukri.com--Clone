@@ -1,13 +1,3 @@
-Ketan Rajabhau Makode (IA Manager)
-
-fw18_0619 - Sushant Kumar (Team Lead)     ----> Jobs Page
-fp03_310  - Rajesh Byagalwar              ----> Home Page
-fw18_0805 - Kunal Chitatwar               ----> Login, Register, Profile Page
-fw17_0894 - Ayush Bajpai                  ----> Services Page
-fp03_305  - Ramkezh Premarajan            ----> Resources Page
-
-
-
 # Naukri.com -- Clone
 Naukri.com is an Indian employment website operting in India and Middle East. It was founded in March 1997 by Indian bussinessman Sanjeev Bikhchandani. Naukri.com is the largest employment website in India.
 <br>
@@ -58,17 +48,17 @@ The Naukri.com website has been cloned by myself and my team of 5 members projec
 Team lead, daily POC and worked on landing page, footer, all jobs page, jobs detail page, job category page
 
 #### Rajesh Byagalwar
->Github: [Rajesh Byagalwar](https://github.com/rsoni2843)
+>Github: [Rajesh Byagalwar](https://github.com/rajeshbyaga)
 worked on backend, signup, login and cart page
 
 #### Kunal Chitatwar 
->Github: [Kunal Chitatwar ](https://github.com/erGaurav13)
+>Github: [Kunal Chitatwar ](https://github.com/kunalchitatwar)
 worked on hotel list, admin dashboard
 
 #### Ayush Bajpai
->Github: [Ayush Bajpai](https://github.com/Ravi98351)
+>Github: [Ayush Bajpai]()
 worked on payment page and user details page
 
 #### Ramkezh Premarajan
->Github: [Ramkezh Premarajan](https://github.com/Ravi98351)
+>Github: [Ramkezh Premarajan](https://github.com/Ramkezh)
 worked on payment page and user details page
