@@ -56,7 +56,7 @@ worked on backend, signup, login and cart page
 worked on hotel list, admin dashboard
 
 #### Ayush Bajpai
->Github: [Ayush Bajpai]()
+>Github: [Ayush Bajpai](https://github.com/ayush19031998)
 worked on payment page and user details page
 
 #### Ramkezh Premarajan
