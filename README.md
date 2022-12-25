@@ -29,22 +29,28 @@ The Naukri.com website has been cloned by myself and my team of 5 members projec
 
 1. Landing page and navigation bar
 
-![LandingPage](src/assests/readme/home.png)
+![LandingPage](images/assests/home.png)
 *******************************************************************************
 
 2. Naukri.com all jobs page
-![LandingPage](src/assests/readme/jobs.png)
+![LandingPage](images/assests/alljobs.png)
 *******************************************************************************
 
 4. Signup page
-![LandingPage](src/assests/readme/register.png)
+![LandingPage](images/assests/signup.png)
 *******************************************************************************
 
 5. SignIn Page
-![LandingPage](src/assests/readme/login.png)
+![LandingPage](images/assests/signin.png)
+*******************************************************************************
+
+6. Jobs Detail Page
+![LandingPage](images/assests/jobsdetail.png)
 *******************************************************************************
 
 7. Footer section
-![LandingPage](src/assests/readme/footer.png)
+![LandingPage](images/assests/footer.png)
 *******************************************************************************
+
+## Authors
 
