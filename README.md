@@ -45,20 +45,22 @@ The Naukri.com website has been cloned by myself and my team of 5 members projec
 ## Authors
 #### Sushant Kumar
 > Github: [Sushant Kumar](https://github.com/sushantkr961)
-Team lead, daily POC and worked on landing page, footer, all jobs page, jobs detail page, job category page
+Team lead, daily POC and worked on footer, all jobs page, jobs detail page, job category page
 
 #### Rajesh Byagalwar
 >Github: [Rajesh Byagalwar](https://github.com/rajeshbyaga)
-worked on backend, signup, login and cart page
+worked on Home Page
 
 #### Kunal Chitatwar 
 >Github: [Kunal Chitatwar ](https://github.com/kunalchitatwar)
-worked on hotel list, admin dashboard
+worked on Login, Register, Profile Page
 
 #### Ayush Bajpai
 >Github: [Ayush Bajpai](https://github.com/ayush19031998)
-worked on payment page and user details page
+worked on Services Page
 
 #### Ramkezh Premarajan
 >Github: [Ramkezh Premarajan](https://github.com/Ramkezh)
-worked on payment page and user details page
+worked on Resources Page
+
+
